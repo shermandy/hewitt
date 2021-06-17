@@ -132,6 +132,7 @@ p {
   border: 0;
   border-spacing: 0px !important;
   min-width: 100%;
+  margin-bottom: 1rem;
 }
 
 .calendar td {
@@ -143,13 +144,13 @@ p {
   border-right: 2px solid white;
 }
 
+.calendar tr:not(.calNums) {
+  height: 50px;
+}
+
 .calendar th {
   background: #D0E1F5;
   padding: 5px;
-}
-
-.calendar .calNums {
-
 }
 
 .calendar .calNums td {
