@@ -121,8 +121,12 @@ p {
   font-weight: Semibold;
 }
 
+footer {
+  background-color: #dbdbdb;
+  overflow: auto;
+}
+
 .footer {
-	background-color: #DBDBDB;
 	padding: 30px;
 	width: 33.333%;
   float: left;
